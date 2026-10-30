@@ -1,0 +1,48 @@
+
+/* Style the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+/* Style the main heading */
+h1 {
+    text-align: center;
+    color: #333333;
+    margin-bottom: 25px;
+}
+
+/* Style the table */
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Style the table headings and cells */
+th,
+td {
+    border: 1px solid #dddddd;
+    padding: 12px 18px;
+    text-align: center;
+}
+
+/* Style the heading row */
+thead {
+    background-color: #333333;
+    color: white;
+}
+
+/* Alternate row colors */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Highlight rows on hover */
+tbody tr:hover {
+    background-color: #d6eaf8;
+}
